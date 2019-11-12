@@ -1,0 +1,86 @@
+    <html>
+    <head>
+        <title>Divisas</title>
+        <link href="./estilo.css" rel="stylesheet" />
+        <link href="./divisasstyles.css" rel="stylesheet" />
+    </head>
+
+        <body onload="init();" background = "img/dolar.jpg">
+
+            <div class="divtitle"> 
+                <font face="impact" size=6 color="white"> Cotización de monedas extrangeras</font>
+            </div>
+
+            <div>
+            <table class="divisastable">
+
+                    <tr scope="row">
+                    <th >Moneda</th>
+                    <th>Compra</th>
+                    <th>Venta</th>
+                    </tr>
+
+                    <tr>
+                    <td>dolar</td>
+                    <td>65$</td>
+                    <td>68$</td>
+                    </tr>
+
+                    <tr>
+                    <td>Euros</td>
+                    <td>75$</td>
+                    <td>85$</td>
+                    </tr>
+                
+                    <tr>
+                    <td>Libra esterlina</td>
+                    <td>78</td>
+                    <td>83</td>
+                        </tr>
+                        
+                </table>
+
+                </div>
+
+                    <div class="calc">
+                        <table class="calculator">
+                            <tr>
+                                <td colspan="4"><span id="resultado">Resultado</span></td>
+                            </tr>
+                            <tr>
+                                <td><button id="seven">7</button></td>
+                                <td><button id="eight">8</button></td>
+                                <td><button id="nine">9</button></td>
+                                <td><button id="divisor">/</button></td>
+                            </tr>
+                            <tr>
+                                    <td><button id="four">4</button></td>
+                                    <td><button id="five">5</button></td>
+                                    <td><button id="six">6</button></td>
+                                    <td><button id="multiplicador">*</button></td>
+
+                            </tr>
+                            <tr>
+                                    <td><button id="one">1</button></td>
+                                    <td><button id="two">2</button></td>
+                                    <td><button id="three">3</button></td>
+                                    <td><button id="resta">-</button></td>
+                            </tr>
+                            <tr>
+                                    <td><button id="igual">=</button></td>
+                                    <td><button id="reset">C</button></td>
+                                    <td><button id="zero">0</button></td>
+                                    <td><button id="suma">+</button></td>
+                            </tr>
+                        
+                        </div>
+                        
+                        </table>
+
+
+                    </div>
+
+            <script>src="calculator.js"</script>
+        </body>
+
+    </html>
