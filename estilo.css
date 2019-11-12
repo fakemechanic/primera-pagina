@@ -4,7 +4,19 @@
 }
 
 .verde {
-    color: green:
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.violeta {
+    color: violet;
 }
 
 #titulo {
