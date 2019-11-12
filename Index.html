@@ -1,0 +1,133 @@
+<html>
+        <head>
+            <title>Home</title>
+            <link href="./estilo.css" rel="stylesheet" />
+            <link href="/fonts.css"   rel="stylesheet" />
+        </head>
+
+        <body background ="BodyBackground.jpg">
+            background ="BodyBackground.jpg"
+            <!--Menu desplegable!!-->
+
+                <div id="Menu" class="Head">
+                        <ul class="Nav">
+
+                            <li class="List1"><a href="Index.html">Home</a></li>
+
+                            <li><a >Efectos</a>
+                                <ul>
+                                        <li><a href="Parallax.html">Parallax</a></li>
+                                        <li><a href="">Sub2</a></li>
+                                        <li><a href="">Sub3</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Opcion1</a> 
+                                <ul>
+                                        <li><a href="">Sub1</a></li>
+                                        <li><a href="">Sub2</a></li>
+                                        <li><a href="">Sub3</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a>Opcion2</a> 
+                                 <ul>
+                                        <li><a href="">Sub1</a></li>
+                                        <li><a href="">Sub2</a></li>
+                                        <li><a href="">Sub3</a></li>
+                                 </ul>
+                            </li>
+
+                            <li><a href="Contacto.html">Contacto </a></li>
+
+                            </ul>
+                </div>
+
+            <!--Fin del menu desplegable!! :D-->
+
+             <div class="Titulo">
+                <h1  id="titulo">Esto es el titulo principal</h1>
+            </div> 
+
+            <div class="centrar-contenido">
+                <button id="siguiente-pagina" class="boton">Siguiente pagina</button>
+            </div>
+        <p>Esto es un parrafo.</p>
+        <h2 class="boton">Este es un titulo secundario</h2>
+        <p>Lo siguiente es una <span class="frutas">lista de frutas</span>:</p>
+        <a href="http://google.com.ar">Google</a>
+        <ol>
+            <li>Bananas</li>
+            <li>Manzanas</li>
+            <li>Peras</li>
+            <li>Anana</li>
+        </ol>
+        <div class="margin">
+            <input id="nombre" type="text" placeholder="Ingrese su nombre" />
+            <button id="enviar">Enviar</button>
+        </div>
+      <!--  <table class="tabla">
+            <tr>
+                <th>Cantidad</th>
+                <th>Producto</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>Leche</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>Azucar</td>
+            </tr>
+        </table>-->
+
+        <div id="texto" class="margin"></div>
+
+        <script src="javascript.js"></script>
+
+        <!-- here start the slide show code-->
+
+        <div id="slide" class="mainslide">
+
+            <div class="slides">
+               <div><img src="img/1.jpg" alt=""></div>
+               <div><img src="img/2.jpg" alt=""></div>
+               <div><img src="img/3.jpg" alt=""></div>
+               <div><img src="img/4.jpg" alt=""></div>
+               <div><img src="img/5.jpg" alt=""></div>
+               <div><img src="img/6.jpg" alt=""></div>
+               <div><img src="img/7.jpg" alt=""></div>  
+            </div>
+
+        </div>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.slides.js"></script>
+
+        <script>
+        
+        $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 2000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+        </script>
+    </body>
+
+</html>
+
+
