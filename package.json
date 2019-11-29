@@ -1,0 +1,38 @@
+{
+  "name": "primera-pagina",
+  "version": "1.0.0",
+  "description": "pagina de prueba",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakemechanic/primera-pagina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakemechanic/primera-pagina/issues"
+  },
+  "homepage": "https://github.com/fakemechanic/primera-pagina#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
